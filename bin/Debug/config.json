@@ -1,0 +1,14 @@
+{
+  "DB_Name": "History.db",
+  "DB_Location": "pwd",// for represent present working directory
+  "Recorders": [
+    {
+      "Name": "Unit6",//This should be unit name and it should follow the same capitalization
+      "NoOfParams": "20",
+      "RecorderIp": "172.21.10.241",
+      "RecorderWebURL": "/dsp_data.cgi?is_ref=0",
+      "UserName": "user",
+      "Password": ""
+    }
+  ]
+}
