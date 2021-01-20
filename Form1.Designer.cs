@@ -34,6 +34,7 @@
             this.lblError = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblExcel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbUnit = new System.Windows.Forms.ComboBox();
             this.btnGenerateExcel = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.dtpTo = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.dtpFrom = new System.Windows.Forms.DateTimePicker();
-            this.lblExcel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -99,6 +99,15 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Get Data To Excel";
+            // 
+            // lblExcel
+            // 
+            this.lblExcel.AutoSize = true;
+            this.lblExcel.ForeColor = System.Drawing.Color.Tomato;
+            this.lblExcel.Location = new System.Drawing.Point(6, 87);
+            this.lblExcel.Name = "lblExcel";
+            this.lblExcel.Size = new System.Drawing.Size(0, 13);
+            this.lblExcel.TabIndex = 3;
             // 
             // label3
             // 
@@ -164,20 +173,11 @@
             this.dtpFrom.TabIndex = 0;
             this.dtpFrom.Value = new System.DateTime(2020, 12, 28, 0, 0, 0, 0);
             // 
-            // lblExcel
-            // 
-            this.lblExcel.AutoSize = true;
-            this.lblExcel.ForeColor = System.Drawing.Color.Tomato;
-            this.lblExcel.Location = new System.Drawing.Point(6, 87);
-            this.lblExcel.Name = "lblExcel";
-            this.lblExcel.Size = new System.Drawing.Size(0, 13);
-            this.lblExcel.TabIndex = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 258);
+            this.ClientSize = new System.Drawing.Size(497, 258);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
